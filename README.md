@@ -31,6 +31,12 @@ Seed database with test data
 $ python manage.py datatosqlite
 ```
 
+### How to remove
+In order to stop adn remove containers run
+```sh
+docker-compose down -v
+```
+
 # API Yamdb Group Project
 
 This is repository for group project in Yandex Praktikum
