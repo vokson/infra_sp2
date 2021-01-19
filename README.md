@@ -2,45 +2,6 @@
 
 This is repository for group project in Yandex Praktikum
 
-### Installation
-
-Clone repository from GitHub
-```sh
-$ git clone https://github.com/vokson/api_yamdb.git
-$ cd api_yamdb
-```
-
-Create virtual environment
-```sh
-$ python -m venv venv
-$ source venv/Scripts/activate
-```
-
-Install vendor modules
-```sh
-$ pip install -r requirements.txt
-```
-
-Perfom migrations of database
-```sh
-$ python manage.py migrate
-```
-
-Seed database with test data
-```sh
-$ python manage.py datatosqlite
-```
-
-### How to remove
-In order to stop adn remove containers run
-```sh
-docker-compose down -v
-```
-
-# API Yamdb Group Project
-
-This is repository for group project in Yandex Praktikum
-
 ## Getting Started
 
 Clone repository from GitHub
