@@ -37,7 +37,7 @@ Create super user
 ```
 docker-compose exec web python manage.py createsuperuser
 ```
-Site is working on your-ip-adress:8000/admin
+*Site is working on your-ip-adress:8000/admin*
 
 ## Running the tests
 ```
@@ -48,7 +48,7 @@ pytest
 ```
 ## Authors
 
-* **Noskov Alexey** - *Initial work* - [PurpleBooth](https://github.com/vokson)
+* **Noskov Alexey** - [vokson](https://github.com/vokson)
 
 ## License
 
