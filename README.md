@@ -37,16 +37,15 @@ Create super user
 ```
 docker-compose exec web python manage.py createsuperuser
 ```
-## Running the tests
+Site is working on your-ip-adress:8000/admin
 
+## Running the tests
 ```
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 pytest
 ```
-Site is working on your-ip-adress:8000/admin
-
 ## Authors
 
 * **Noskov Alexey** - *Initial work* - [PurpleBooth](https://github.com/vokson)
