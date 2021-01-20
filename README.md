@@ -1,6 +1,6 @@
 # API Yamdb Group Project
 
-This is API for multi-user blogging platform divided by categories, genres with ability to add posts, reviews, comments etc.
+This is group project from Yandex.Praktikum provided API for multi-user blogging platform divided by categories, genres with ability to add posts, reviews, comments etc.
 
 ## Getting Started
 
