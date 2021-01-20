@@ -50,7 +50,7 @@ pytest
 ```
 ## Technologies
 
-[Django](https://www.djangoproject.com/)
+**Django** [https://www.djangoproject.com/](https://www.djangoproject.com/)
 [Django Rest Framework](https://www.django-rest-framework.org/)
 [PostgreSQL](https://www.postgresql.org/)
 [Docker](https://www.docker.com/)
