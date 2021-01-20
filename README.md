@@ -30,15 +30,24 @@ Build and run containers
 ```
 docker-compose up --build -d
 ```
+Log in ```web``` container
+```
+docker-compose exec web bash
+```
 Migrate and seed sample data
 ```
-docker-compose exec web python manage.py migrate --noinput
-docker-compose exec web python manage.py loaddata fixtures.json
+python manage.py migrate --noinput
+python manage.py loaddata fixtures.json
 ```
 Create super user
 ```
-docker-compose exec web python manage.py createsuperuser
+python manage.py createsuperuser
 ```
+Log out from container
+```
+exit
+```
+
 *Site is working on your-ip-address:8000/admin*
 
 ## Running the tests
