@@ -11,7 +11,7 @@ $ cd infra_sp2
 ```
 ### Prerequisites
 
-Install docker as described [here](https://docs.docker.com/get-docker/).
+Install docker [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/) and docker-compose [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 
 ### Installing
 
