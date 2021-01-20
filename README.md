@@ -1,6 +1,6 @@
 # API Yamdb Group Project
 
-This is repository for group project in Yandex Praktikum
+This is API for multi-user blogging platform divided by categories, genres with ability to add posts, reviews, comments etc.
 
 ## Getting Started
 
@@ -11,7 +11,11 @@ $ cd infra_sp2
 ```
 ### Prerequisites
 
-Create .env file with environment PostreSQL settings and secret key
+Install docker as described [here](https://docs.docker.com/get-docker/).
+
+### Installing
+
+Create ```.env``` file with environment PostreSQL settings and secret key
 
 ```
 DB_NAME=
@@ -21,8 +25,6 @@ DB_HOST=
 DB_PORT=
 SECRET_KEY=
 ```
-
-### Installing
 
 Build and run containers
 ```
@@ -46,6 +48,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 pytest
 ```
+## Technologies
+
+[Django](https://www.djangoproject.com/)
+[Django Rest Framework](https://www.django-rest-framework.org/)
+[PostgreSQL](https://www.postgresql.org/)
+[Docker](https://www.docker.com/)
+
 ## Authors
 
 * **Noskov Alexey** - [vokson](https://github.com/vokson)
