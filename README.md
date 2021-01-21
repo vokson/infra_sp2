@@ -15,7 +15,7 @@ Install docker [https://docs.docker.com/get-docker/](https://docs.docker.com/get
 
 ### Installing
 
-Create ```.env``` file with environment PostreSQL settings and secret key
+Create ```.env``` file with environment PostreSQL settings and secret key. You may rename and fill use ```.env.example```.
 
 ```
 DB_NAME=

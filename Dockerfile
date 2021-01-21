@@ -1,7 +1,6 @@
 FROM python:3.8.5-alpine
 RUN apk update \
     && apk add postgresql-dev gcc python3-dev musl-dev bash
-RUN mkdir /code
 WORKDIR /code
 COPY . .
 RUN pip install -r /code/requirements.txt
